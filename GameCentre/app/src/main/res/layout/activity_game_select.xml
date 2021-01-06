@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="csc207phase2.gamecentre.SlidingTilesActivity">
+
+    <TextView
+        android:id="@+id/GameSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="109dp"
+        android:gravity="center"
+        android:text="Select A Game"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/SlidingTiles"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_below="@+id/GameSelect"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="481dp"
+        android:text="Sliding Tiles" />
+
+    <Button
+        android:id="@+id/Minesweeper"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_below="@+id/GameSelect"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="373dp"
+        android:text="Minesweeper" />
+
+    <Button
+        android:id="@+id/MemoryGame"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_below="@+id/GameSelect"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="259dp"
+        android:text="MemoryGame" />
+
+</RelativeLayout>
